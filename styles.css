@@ -1,0 +1,195 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border box;
+  }
+  
+  body {
+    text-align:center;
+    margin:2em 5em 0em 5em ;
+  }
+  
+  #header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #E0E0E0;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 0.8em;
+  }
+  
+  #header-img{
+    max-width:17em;
+      margin:1em;
+  
+  
+  }
+  
+  #nav-bar{
+    list-style-type: none;
+    float:right;
+    display: block;
+    margin:1em;
+   
+  }
+  
+  a {
+    list-style: none;
+    text-decoration: none;
+    color:black;
+  }
+  
+  li {
+    display:inline;
+    margin-left:10em;
+    margin-right:10em;
+    font-size: 18px;
+    
+  
+  }
+  
+  .home {
+    margin-top:9em;
+  }
+  
+  h1 {
+    margin:1em;
+    font-size:30px;
+  }
+  
+  .btn-email {
+    padding:7px;
+    background-color:FAF435;
+    color:black;
+    font-weight:800;
+    border:1px solid;
+  }
+  
+  #features{
+    display:flex;
+    flex-direction:column;
+    margin:2em auto;
+    padding: 5em;
+    text-align:center;
+    width:50%;
+   
+  }
+  
+  .feature1,
+  .feature2,
+  .feature3 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  
+  
+  }
+  
+  .img-feature {
+    height:10em;
+    width:10em;
+  }
+  
+  .text-feature {
+    text-align:center;
+    margin:1em;
+    padding:1em;
+  }
+  
+  #pricing {
+    display:flex;
+    background-color:#E0E0E0;
+    margin:2em auto 2em auto;
+    width:60%;
+    height:15em;
+  
+  }
+  
+  .price1,
+  .price2,
+  .price3 {
+    border:2px solid;
+    border-right:1px solid;
+    border-left:1px solid;
+    padding:2em;
+  }
+  
+  #money {
+    margin:0.7em;
+    color: red;
+  }
+  
+  .btn-price{
+    margin-top:1.5em;
+    padding:7px;
+    width: 10em;
+    background-color:FAF435;
+    color:black;
+    font-weight:800;
+    border:1px solid;
+  }
+  
+  #footer {
+    display:flex;
+    justify-content:space-between;
+    background-color:#E0E0E0;
+    padding:1rem;
+    width:60%;
+    margin:1em auto 1em auto;
+    
+  }
+  .footer p {
+    display:flex;
+    padding:0.1em;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    body {
+      
+      margin:12em 1em 0 1em;
+  
+    }
+  
+    .nav-link{
+      margin-right:2em;
+  
+    }
+   
+  
+  
+  
+    li {
+      margin:1em;
+      padding:1em;
+    }
+  
+    #features {
+      margin:auto;
+    }
+    #pricing {
+      margin-left:auto;
+      margin-right:auto;
+      width: 60%;
+      display:flex;
+      flex-direction:column;
+    }
+  .price1,
+  .price2,
+  .price3 {
+    background-color:#E0E0E0;
+  }
+    #footer{
+      margin-left:auto;
+      margin-right:auto;
+      display:flex;
+      margin-top:32em; 
+      width:90%; 
+   
+    }
+    .footer-link{
+      padding:1rem;
+  
+    }
+  }
